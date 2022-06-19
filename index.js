@@ -1,5 +1,9 @@
 const ball = document.getElementById('ball');
 const p = document.querySelector('p');
+const exit = document.getElementById('exit');
+const instructions = document.getElementById('instPar');
+
+exit.addEventListener('click', () => {instructions.style.display = 'none'});
 
 function eightBall() {
     ball.style.animation = 'bounce 3s ease-in-out';
