@@ -31,36 +31,43 @@
         transform: translate(0, 0vh);
     }
 
-    20% {
+    15% {
         transform: translate(0, -20vh);
     }
 
-    40% {
+    30% {
         transform: translate(0, -40vh);
     }
 
-    60% {
+    45% {
         transform: translate(0, -60vh);
     }
 
-    80% {
+    60% {
         transform: translate(0, -80vh);
+        opacity: .7;
     }
 
-    90% {
+    75% {
         transform: translate(0, -100vh);
+        opacity: .5;
+    }
+    90% {
+        transform: translate(0, -120vh);
+        opacity: .2;
+    }
+    100% {
+        transform: translate(0, -140vh);
+        opacity: 0;
     }
 
-    100% {
-        transform: translate(0, -120vh);
-    }
 }
 
 body {
     background-color: #703B78;
     font-family: 'Source Sans Pro', sans-serif;
     color: #DEC5CB;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
     position: relative;
     overflow: hidden;
 }
@@ -74,57 +81,6 @@ body {
     z-index: -1;
     position: absolute;
 }
-
-.ball-1 {
-    bottom: -2rem;
-    left: 1rem;
-}
-
-.ball-2 {
-    bottom: -5rem;
-    left: 6rem;
-}
-
-.ball-3 {
-    bottom: -7rem;
-    left: 5rem;
-}
-
-.ball-4 {
-    bottom: -10rem;
-    left: 10rem;
-}
-
-.ball-5 {
-    bottom: -14rem;
-    right: 2rem;
-}
-
-.ball-6 {
-    bottom: -15rem;
-    left: 15rem;
-}
-
-.ball-7 {
-    bottom: -18rem;
-    right: 19rem;
-}
-
-.ball-8 {
-    bottom: -15rem;
-    right: 18rem;
-}
-
-.ball-9 {
-    bottom: -5rem;
-    right: 8rem;
-}
-
-.ball-10 {
-    bottom: -2rem;
-    right: 1rem;
-}
-
 header {
     text-align: center;
 }
