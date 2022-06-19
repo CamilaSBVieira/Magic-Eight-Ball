@@ -72,64 +72,55 @@ body {
     border-radius: 100%;
     animation: move 10s linear infinite;
     z-index: -1;
+    position: absolute;
 }
 
 .ball-1 {
-    position: absolute;
     bottom: -2rem;
     left: 1rem;
 }
 
 .ball-2 {
-    position: absolute;
     bottom: -5rem;
     left: 6rem;
 }
 
 .ball-3 {
-    position: absolute;
     bottom: -7rem;
     left: 5rem;
 }
 
 .ball-4 {
-    position: absolute;
     bottom: -10rem;
     left: 10rem;
 }
 
 .ball-5 {
-    position: absolute;
     bottom: -14rem;
     right: 2rem;
 }
 
 .ball-6 {
-    position: absolute;
     bottom: -15rem;
     left: 15rem;
 }
 
 .ball-7 {
-    position: absolute;
     bottom: -18rem;
     right: 19rem;
 }
 
 .ball-8 {
-    position: absolute;
     bottom: -15rem;
     right: 18rem;
 }
 
 .ball-9 {
-    position: absolute;
     bottom: -5rem;
     right: 8rem;
 }
 
 .ball-10 {
-    position: absolute;
     bottom: -2rem;
     right: 1rem;
 }
