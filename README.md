@@ -1,4 +1,4 @@
-# MagicEightBall
+# Magic Eight Ball
 
 A Codecademy Challenge in the Front-End Engineer Path.
 
